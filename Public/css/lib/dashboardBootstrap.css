@@ -1,0 +1,9 @@
+@import url("bootstrap.css");
+@import url("../components/Header.css");
+@import url("../components/Footer.css");
+@import url("../components/dashboard/Header.css");
+@import url("../components/dashboard/Main.css");
+@import url("../components/dashboard/Aside.css");
+@import url("../components/dashboard/Content.css");
+@import url("../components/Paginations.css");
+@import url("../components/dashboard/Counters.css");

@@ -1,0 +1,6 @@
+body {
+    direction: rtl;
+    background-color: #fafafa;
+    font-family: "vazir-rd-ui-fd-light";
+    color : var(--color-1);
+}

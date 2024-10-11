@@ -1,0 +1,38 @@
+.button {
+    display: inline-block;
+    background-color: var(--color-8) ;
+    color: var(--color-9);
+    padding: 8px 12px ;
+    border-radius: 3px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: unset ;
+}
+.button:hover {
+    cursor: pointer ;
+}
+.success-button {
+    background-color: var(--color-3);
+}
+.warning-button {
+    background-color: var(--color-7);
+}
+.error-button {
+    background-color: var(--color-6);
+}
+.info-button {
+    background-color: var(--color-4);
+}
+.black-button {
+    background-color: var(--color-1);
+}
+.purple-button {
+    background-color: var(--color-2);
+}
+.success-button ,
+.warning-button ,
+.error-button ,
+.info-button ,
+.black-button ,
+.purple-button{
+    color: white ;
+}

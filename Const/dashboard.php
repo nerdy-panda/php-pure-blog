@@ -1,0 +1,4 @@
+<?php
+const SHOW_CATEGORY_COUNT =  5 ;
+const SHOW_ARTICLE_COUNT = 6 ;
+const SHOW_TAG_COUNT = 14 ;

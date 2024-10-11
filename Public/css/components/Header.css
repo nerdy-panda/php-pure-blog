@@ -1,0 +1,102 @@
+#page-header {
+    height: 70px ;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: white ;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#page-header-container {
+    height: 100% ;
+    display: flex;
+    justify-content: space-between;
+}
+#brand {
+    height: 100%;
+    display: flex;
+}
+#brand-logo-container {
+    height: 100%;
+}
+#brand-logo-container a {
+    display: inline-block;
+    height: 100% ;
+}
+#brand-image {
+    height: 100%;
+}
+#brand-title ,
+#brand-describe {
+    height: 50%;
+    margin: unset ;
+}
+#brand-title {
+    font-size: 18px ;
+}
+#brand-describe {
+    font-size: 15px;
+}
+#brand-title a ,
+#brand-describe a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+#brand-title a {
+    padding-top: 14px;
+}
+#brand-describe a {
+    padding-top: 3px;
+}
+#category-nav {
+
+}
+#category-nav ul {
+    height: 100%;
+    display: flex;
+    column-gap: 10px;
+    margin: unset ;
+    padding: unset ;
+    list-style: none ;
+}
+#category-nav ul li a {
+    height: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 26px 8px;
+    transition: color 80ms linear;
+}
+#category-nav ul li a:hover {
+    color: var(--color-2);
+}
+#user-actions ul {
+    height: 100% ;
+    display: flex;
+    column-gap: 10px;
+    margin: unset ;
+    padding: unset ;
+    list-style: none ;
+}
+#user-actions ul a {
+    display: inline-block;
+    height: 100%;
+    padding: 26px 6px;
+    box-sizing: border-box;
+}
+#user-actions ul a:hover {
+    color: var(--color-2);
+}
+#user-link a {
+    padding: 0 10px !important;
+    display: flex !important;
+    align-items: center;
+    column-gap: 10px ;
+
+}
+#user-link img {
+    width: 40px ;
+    height: 40px ;
+    border-radius: 100% ;
+}

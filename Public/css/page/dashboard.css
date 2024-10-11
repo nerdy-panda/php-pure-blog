@@ -1,0 +1,115 @@
+@import url(../lib/dashboardBootstrap.css);
+@import url("../components/dashboard/AddButton.css");
+@import url("../components/dashboard/TagForm.css");
+@import url("../components/dashboard/ArticleForm.css");
+#content-header {
+    position: relative;
+}
+.alert {
+    margin-bottom: 30px ;
+}
+.button-row {
+    width: var(--col-4);
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+.field-row label {
+    font-size: 16px;
+}
+.form-action-button {
+    padding: 12px 24px ;
+}
+.form-action-button i {
+    margin-left: 3px ;
+}
+.dashboard-form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    margin-top: 60px ;
+}
+.category-form #name {
+    text-indent: 54px;
+}
+.category-form #slug {
+    text-indent: 65px ;
+}
+.category-form #icon {
+    text-indent: 65px ;
+}
+.action-cell a {
+    margin-left: 10px ;
+}
+.action-cell a:last-child {
+    margin-left: unset;
+}
+.action-cell i {
+    font-size: 18px ;
+}
+.author-cell a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.author-cell a:hover {
+    color: var(--color-2);
+}
+.author-cell img {
+    width: 50px ;
+    height: 50px;
+    border-radius: 100% ;
+    filter: grayscale(45%) opacity(0.7);
+    transition: filter 400ms linear ;
+}
+.thumbnail-cell img {
+    width: 120px ;
+    height: 80px ;
+    border-radius: 3px ;
+    filter: grayscale(50%) opacity(0.8);
+    transition: filter 250ms linear;
+}
+tr:hover .thumbnail-cell img {
+    filter: grayscale(0) opacity(1);
+}
+tr:hover .author-cell img {
+    filter: grayscale(0) opacity(1);
+}
+.created-cell ,
+.updated-cell {
+    direction: ltr;
+}
+table i.fa-close {
+    font-size: 20px;
+    color: var(--color-6);
+}
+
+.thumbnail-preview {
+    width: 90%;
+    margin: 0 auto;
+    height: 300px ;
+}
+.thumbnail-preview label {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.thumbnail-preview img {
+    cursor: pointer;
+    height: 100% ;
+    width: 100%;
+    filter: opacity(0.8) grayscale(35% );
+    border-radius: 15px ;
+    transition-property: border-radius , filter , box-shadow ;
+    transition-duration: 250ms ;
+    transition-timing-function: linear;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+.thumbnail-preview img:hover {
+    filter: opacity(1) grayscale(0);
+    border-radius: 24px ;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}

@@ -1,0 +1,261 @@
+.field-row {
+    position: relative;
+}
+.field-row input,
+.field-row textarea {
+    height: 40px;
+    width: 100%;
+    border: unset ;
+    border-bottom: 2px solid #f1f1f1;
+    text-indent: 20px;
+    transition-property: text-indent ;
+    transition-duration: 200ms ;
+    transition-timing-function: linear ;
+}
+.field-row textarea {
+    height: 120px;
+    resize: none;
+    line-height: 2;
+}
+.field-row>input:focus,
+.field-row>textarea:focus {
+    outline: unset;
+    text-indent: 5px !important;
+}
+.field-row>label {
+    position: absolute;
+    top: 44%;
+    transform: translateY(-50%);
+    transition-property: top , font-size ;
+    transition-timing-function: linear ;
+    transition-duration: 200ms ;
+    font-size: 18px;
+}
+.field-row>textarea+label {
+    top: 18px ;
+    background: white;
+}
+.field-row>input:focus + label
+{
+    top: 0;
+    font-size: 14px;
+}
+.field-row > textarea:focus + label {
+    top: -10px;
+}
+.underline {
+    width: 0px ;
+    height: 2px ;
+    background-color: var(--color-2);
+    position: absolute;
+    bottom: 0;
+    left: 50% ;
+    transform: translateX(-50%);
+    transition: width 200ms linear;
+}
+input:focus + label + .underline ,
+textarea:focus + label + .underline
+{
+    width: 100%;
+}
+
+
+
+.material-file-field-row {
+    position: relative;
+}
+.file-selector {
+    height: 50px ;
+    background-color: var(--color-2);
+    border-radius: 6px ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
+}
+.file-selector p {
+    text-align: center ;
+    color: white ;
+    height: 100% ;
+    margin: unset;
+}
+.file-selector p i {
+    font-size: 32px ;
+    vertical-align: -23px;
+    margin-left: 7px ;
+}
+.file-selector p strong {
+    vertical-align: -16px ;
+    font-size: 18px ;
+    direction: ltr ;
+}
+.material-file-field-row input[type="file"] {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    cursor: pointer ;
+    opacity: 0;
+}
+.material-file-field-clear {
+    font-size: 20px !important ;
+    position: absolute;
+    left: 20px ;
+    top: 50% ;
+    transform: translateY(-50%);
+    z-index: 1 ;
+    cursor: pointer ;
+    display: none;
+}
+.material-select-row {
+    display: flex;
+    align-items: center;
+    column-gap: 30px ;
+}
+.material-select-row label {
+    position: static;
+    transform: unset;
+}
+.material-select-row .material-select-container {
+    position: relative;
+    flex-grow: 1;
+
+}
+.material-select-row select {
+    border: unset;
+    background: transparent;
+    border-bottom: 2px solid #f1f1f1;
+    padding: 14px 0;
+    width: 100%;
+}
+.material-select-row select:focus + .underline {
+    width: 100% ;
+    height: 2px;
+}
+.material-multiple-select-row {
+
+}
+.material-multiple-select-row label {
+    display: block;
+    width: calc(100% - 13px);
+    position: absolute;
+    top: 22px;
+    right: 3px;
+    background: white ;
+    /*padding: 7px ;*/
+    padding: 11px 7px;
+    border-radius: 6px;
+    transition-property: top ;
+    transition-duration: 250ms ;
+    transition-timing-function: linear ;
+    box-sizing: border-box;
+}
+.material-multiple-select-row select {
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #f1f1f1;
+    padding: 10px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    transition-property: border , padding-top ;
+    transition-timing-function: linear ;
+    transition-duration: 250ms  ;
+    transition-delay: 251ms , 0ms;
+}
+.material-multiple-select-row select option {
+    text-indent: 15px;
+}
+.material-multiple-select-row .underline {
+    border-radius: 24px;
+}
+.material-multiple-select-row select:focus {
+    border-color: var(--color-2);
+    padding-top: 20px;
+}
+
+.material-multiple-select-row select:focus + label {
+    width: auto;
+    top: 0;
+    padding : 7px;
+}
+.material-multiple-select-row select:focus + label + .underline {
+    width: 99.3%;
+    bottom: 0px;
+}
+
+
+
+
+
+
+
+.checkbox-wrapper-30 .checkbox {
+    --bg: #fff;
+    --brdr: #d1d6ee;
+    --brdr-actv: #1e2235;
+    --brdr-hovr: #bbc1e1;
+    --dur: calc((var(--size, 2)/2) * 0.6s);
+    display: inline-block;
+    width: calc(var(--size, 1) * 22px);
+    position: relative;
+}
+.checkbox-wrapper-30 .checkbox:after {
+    content: "";
+    width: 100%;
+    padding-top: 100%;
+    display: block;
+}
+.checkbox-wrapper-30 .checkbox > * {
+    position: absolute;
+}
+.checkbox-wrapper-30 .checkbox input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    background-color: var(--bg);
+    border-radius: calc(var(--size, 1) * 4px);
+    border: calc(var(--newBrdr, var(--size, 1)) * 1px) solid;
+    color: var(--newBrdrClr, var(--brdr));
+    outline: none;
+    margin: 0;
+    padding: 0;
+    transition: all calc(var(--dur) / 3) linear;
+}
+.checkbox-wrapper-30 .checkbox input:hover,
+.checkbox-wrapper-30 .checkbox input:checked {
+    --newBrdr: calc(var(--size, 1) * 2);
+}
+.checkbox-wrapper-30 .checkbox input:hover {
+    --newBrdrClr: var(--brdr-hovr);
+}
+.checkbox-wrapper-30 .checkbox input:checked {
+    --newBrdrClr: var(--brdr-actv);
+    transition-delay: calc(var(--dur) /1.3);
+}
+.checkbox-wrapper-30 .checkbox input:checked + svg {
+    --dashArray: 16 93;
+    --dashOffset: 109;
+}
+.checkbox-wrapper-30 .checkbox svg {
+    fill: none;
+    left: 0;
+    pointer-events: none;
+    stroke: var(--stroke, var(--border-active));
+    stroke-dasharray: var(--dashArray, 93);
+    stroke-dashoffset: var(--dashOffset, 94);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2px;
+    top: 0;
+    transition: stroke-dasharray var(--dur), stroke-dashoffset var(--dur);
+}
+.checkbox-wrapper-30 .checkbox svg,
+.checkbox-wrapper-30 .checkbox input {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.checkbox-wrapper-30 label {
+    vertical-align: 7px ;
+    margin-right: 7px;
+}

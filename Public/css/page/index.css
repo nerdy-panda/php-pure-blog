@@ -1,0 +1,10 @@
+@import url("../lib/bootstrap.css");
+@import url("../components/Header.css");
+@import url("../components/Hero.css");
+@import url("../components/Articles.css");
+@import url("../components/Paginations.css");
+@import url("../components/Footer.css");
+
+body>main .alert{
+    margin: 32px 0;
+}

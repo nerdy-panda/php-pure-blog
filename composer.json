@@ -1,0 +1,36 @@
+{
+    "name": "nerdpanda/bico-php-pure-blog",
+    "homepage": "https://github.com/nerdy-panda/bico-php-pure-blog.git",
+    "description": "create blog with php pure",
+    "keywords": ["nerdpanda","nerdy panda" ,"nerdy-panda","php pure blog"],
+    "readme": "https://github.com/nerdy-panda/bico-php-pure-blog/blob/master/README.MD",
+    "version": "0.1",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+
+        },
+        "files": []
+    },
+    "autoload-dev": {
+
+    },
+    "authors": [
+        {
+            "name": "Nerd Panda",
+            "email": "nerdpandabusiness@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^6.4"
+    },
+    "scripts": {
+        "app_version" : "php ./App/Console/version.php"
+    },
+    "scripts-descriptions": {
+        "app_version" : "show the app version !!!"
+    },
+  "require": {
+    "ext-pdo": "*"
+  }
+}

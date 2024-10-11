@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "manjari-regular";
+    src: 
+        url("../../../font/manjari/Manjari-Regular.eot?#iefix") format("eot") , 
+        url("../../../font/manjari/Manjari-Regular.eot") format("eot") , 
+        url("../../../font/manjari/Manjari-Regular.svg") format("svg") , 
+        url("../../../font/manjari/Manjari-Regular.ttf") format("ttf") , 
+        url("../../../font/manjari/Manjari-Regular.woff") format("woff") , 
+        url("../../../font/manjari/Manjari-Regular.woff2") format("woff2")
+    ;
+}

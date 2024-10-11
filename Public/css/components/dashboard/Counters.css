@@ -1,0 +1,46 @@
+#counters {
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center ;
+    row-gap: 20px ;
+    column-gap: 2.6%;
+    margin-top: 20px ;
+    color : white ;
+}
+
+#counters .counter {
+    width: calc(var(--col-3) - 2%);
+    min-height: 200px ;
+    border-radius: 8px ;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px ;
+}
+#counters .counter:first-child {
+    background-color: var(--color-2);
+}
+#counters .counter:nth-child(2) {
+    background-color: var(--color-3);
+}
+#counters .counter:nth-child(3){
+    background-color : var(--color-26);
+}
+#counters .counter:nth-child(4){
+    background-color : var(--color-4);
+}
+#counters .counter .counter-icon {
+    font-size: 45px ;
+}
+#counters .counter .counter-number {
+    font-size: 37px ;
+}
+#counters .counter .counter-name {
+    font-size: 30px ;
+}
+#counters .counter .counter-icon ,
+#counters .counter .counter-number ,
+#counters .counter .counter-name {
+    text-align: center ;
+}

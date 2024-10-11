@@ -1,0 +1,19 @@
+.article-form {
+    row-gap: 55px !important;
+}
+.article-form #title {
+    text-indent: 70px ;
+}
+.article-form #slug {
+    text-indent: 64px;
+}
+.article-form #summary {
+    text-indent: 73px;
+}
+.article-form #body {
+    text-indent: 73px;
+}
+
+#tags option {
+    text-indent: 72px;
+}

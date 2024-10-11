@@ -1,0 +1,9 @@
+#content {
+    min-height: calc(100vh - 140px);
+    padding: 20px ;
+    background-color: white ;
+    padding-right: calc(var(--col-2) + 30px);
+    box-sizing: border-box;
+    padding-bottom: 50px ;
+    position: relative ;
+}

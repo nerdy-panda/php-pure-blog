@@ -1,0 +1,31 @@
+{
+  "name": "bico-php-pure-blog",
+  "version": "1.0.0",
+  "description": "create blog with php pure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerdy-panda/bico-php-pure-blog.git"
+  },
+  "keywords": [
+    "nerdpanda",
+    "nerdy",
+    "panda",
+    "nerdy-panda",
+    "php",
+    "pure",
+    "blog"
+  ],
+  "author": "nerdpanda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nerdy-panda/bico-php-pure-blog/issues"
+  },
+  "homepage": "https://github.com/nerdy-panda/bico-php-pure-blog#readme",
+  "dependencies": {
+    "sweetalert2": "^11.14.1"
+  }
+}

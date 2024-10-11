@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "manjari-bold";
+    src: 
+        url("../../../font/manjari/Manjari-Bold.eot?#iefix") format("eot") , 
+        url("../../../font/manjari/Manjari-Bold.eot") format("eot") , 
+        url("../../../font/manjari/Manjari-Bold.svg") format("svg") , 
+        url("../../../font/manjari/Manjari-Bold.ttf") format("ttf") , 
+        url("../../../font/manjari/Manjari-Bold.woff") format("woff") , 
+        url("../../../font/manjari/Manjari-Bold.woff2") format("woff2")
+    ;
+}

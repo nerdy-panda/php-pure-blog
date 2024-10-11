@@ -1,0 +1,1 @@
+<a href="<?php echo $url; ?>" class="view-link button purple-button"><i class="fa-solid fa-eye"></i></a>

@@ -1,0 +1,1 @@
+<a href="<?php echo $url; ?>" class="delete-link button error-button"><i class="fa-solid fa-trash-can"></i></a>
